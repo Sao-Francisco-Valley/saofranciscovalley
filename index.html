@@ -1,46 +1,87 @@
 <!doctype html>
 <html lang="pt-BR">
-    <head>
-        <base id="site-base" href="/" />
-        <script>
-            (function () {
-                var repoBase = '/saofranciscovalley/';
-                var baseEl = document.getElementById('site-base');
-                if (location.hostname.indexOf('github.io') !== -1 || location.pathname.indexOf(repoBase) === 0) {
-                    baseEl.setAttribute('href', repoBase);
-                } else {
-                    baseEl.setAttribute('href', '/');
-                }
-            })();
-        </script>
-        <link rel="stylesheet" href="src/css/styles.css" />
+<head>
 
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="São Francisco Valley, Mateus Alencar Ferreira">
-        <meta name="keywords" content="startups, empreendedorismo, Vale do São Francisco, tecnologia, inovação, negócios">
-        <meta name="description" content="A São Francisco Valley é uma comunidade de startups e empreendedorismo do Vale do São Francisco. Conectamos talento regional a oportunidades globais.">
+<base id="site-base" href="/" />
+<script>
+(function () {
+    var repoBase = '/saofranciscovalley/';
+    var baseEl = document.getElementById('site-base');
+    if (location.hostname.indexOf('github.io') !== -1 || location.pathname.indexOf(repoBase) === 0) {
+        baseEl.setAttribute('href', repoBase);
+    } else {
+        baseEl.setAttribute('href', '/');
+    }
+})();
+</script>
 
-        <link rel="icon" href="src/assets/icons/favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" href="src/assets/icons/favicon.ico" type="image/x-icon" />
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>São Francisco Valley</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="canonical" href="https://saofranciscovalley.com.br/"/>
-        <meta property="og:locale" content="pt_BR"/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="São Francisco Valley - Comunidade de Startups do Vale do São Francisco"/>
-        <meta property="og:description" content="A São Francisco Valley é uma comunidade de startups e empreendedorismo do Vale do São Francisco. Conectamos talento regional a oportunidades globais."/>
-        <meta property="og:url" content="https://saofranciscovalley.com.br/"/>
-        <meta property="og:site_name" content="São Francisco Valley"/>
-        <meta property="og:image" content="src/assets/images/logo.png"/>
+<title>São Francisco Valley | Comunidade de Startups do Vale do São Francisco</title>
 
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:title" content="São Francisco Valley - Comunidade de Startups do Vale do São Francisco"/>
-        <meta name="twitter:description" content="A São Francisco Valley é uma comunidade de startups e empreendedorismo do Vale do São Francisco. Conectamos talento regional a oportunidades globais."/>
-        <meta name="twitter:image" content="src/assets/images/logo.png"/>
-    </head>
+<meta name="description" content="A São Francisco Valley é uma comunidade de startups, tecnologia e empreendedorismo do Vale do São Francisco. Conectamos talentos regionais a oportunidades globais de inovação.">
+<meta name="keywords" content="startups, empreendedorismo, inovação, tecnologia, Vale do São Francisco, Petrolina, Juazeiro, comunidade startup, venture capital, ecossistema inovação">
+<meta name="author" content="Mateus Alencar Ferreira">
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://saofranciscovalley.com.br/">
+
+<link rel="icon" href="src/assets/icons/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="src/assets/icons/favicon.ico" type="image/x-icon">
+
+<meta name="theme-color" content="#0A2540">
+
+<link rel="preload" href="src/css/styles.css" as="style">
+<link rel="stylesheet" href="src/css/styles.css">
+
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="website">
+<meta property="og:title" content="São Francisco Valley | Comunidade de Startups do Vale do São Francisco">
+<meta property="og:description" content="Comunidade de startups e inovação do Vale do São Francisco. Conectando talentos regionais a oportunidades globais.">
+<meta property="og:url" content="https://saofranciscovalley.com.br/">
+<meta property="og:site_name" content="São Francisco Valley">
+
+<meta property="og:image" content="https://saofranciscovalley.com.br/src/assets/images/logo.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="São Francisco Valley | Comunidade de Startups do Vale do São Francisco">
+<meta name="twitter:description" content="Ecossistema de inovação e startups do Vale do São Francisco.">
+<meta name="twitter:image" content="https://saofranciscovalley.com.br/src/assets/images/logo.png">
+<meta name="twitter:creator" content="@saofranciscovalley">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "São Francisco Valley",
+  "url": "https://saofranciscovalley.com.br",
+  "logo": "https://saofranciscovalley.com.br/src/assets/images/logo.png",
+  "description": "Comunidade de startups e empreendedorismo do Vale do São Francisco.",
+  "founder": {
+    "@type": "Person",
+    "name": "Mateus Alencar Ferreira"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Vale do São Francisco"
+  },
+  "sameAs": [
+    "https://www.instagram.com/saofranciscovalley",
+    "https://www.linkedin.com/company/saofranciscovalley"
+  ]
+}
+</script>
+
+</head>
     <body>
         <div id="header"></div>
 
@@ -53,7 +94,7 @@
                     </div>
                     <h1>Onde a Inovação Encontra o <span class="text-navy">Sertão</span>.</h1>
                     <p>
-                        Somos o principal hub de startups e empreendedorismo do Vale do São
+                        Somos a principal comunidade de startups e empreendedorismo do Vale do São
                         Francisco. Conectamos talento regional a oportunidades globais.
                     </p>
                     <div class="buttons">
