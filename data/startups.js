@@ -100,7 +100,7 @@ window.STARTUPS = [
         name: 'MED7 Telemedicina',
         category: 'Healthtech',
         description: '',
-        logo: 'src/assets/images/startups/med7.avif',
+        logo: 'src/assets/images/startups/med7.jpeg',
         website: 'https://telemed7.com/',
     },
     {
